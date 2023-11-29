@@ -1,0 +1,13 @@
+import React from 'react';
+import './hero.css';
+import heroStrings from './heroStrings.js';
+
+export default function Hero({ language }) {
+    return (
+        <div className="hero-container">
+            <h1>{`${heroStrings[language.key].heroH1}`}</h1>
+            <h2>{`${heroStrings[language.key].heroLocation}`}</h2>
+            <p>Lorem ipsum duis culpa do et ex ad est. Deserunt enim velit cupidatat laborum quis dolore officia mollit officia Lorem labore labore. Ex qui officia ipsum aliqua in pariatur magna. Sint fugiat ea occaecat minim labore ex et.</p>
+        </div>
+    )
+}

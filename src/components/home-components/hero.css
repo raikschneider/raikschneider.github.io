@@ -1,0 +1,19 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container h1 {
+    font-size: 6rem;
+    margin: 0;
+    /* background: linear-gradient(90deg, rgba(94, 94, 99, 1) 0%, rgba(76, 76, 147, 1) 52%, rgba(0, 212, 255, 1) 100%); */
+    background: linear-gradient(90deg, rgba(94,94,99,1) 0%, rgba(76,76,147,1) 58%, rgba(25,144,168,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-container p {
+    text-align: center;
+}

@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'InterThin';
+  src: local('InterThin'), url('./font/Inter-Thin.ttf') format('truetype');
+  font-weight: 100;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'InterLight';
+  src: local('InterLight'), url('./font/Inter-Light.ttf') format('truetype');
+  font-weight: 300;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'InterRegular';
+  src: local('InterRegular'), url('./font/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@font-face {
+  font-family: 'InterMedium';
+  src: local('InterMedium'), url('./font/Inter-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'InterBold';
+  src: local('InterBold'), url('./font/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+body {
+  background-color: #fff;
+  color: #5e5e63;
+}
+
+.page-wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding-inline: 25%;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-family: 'InterBold', 'sans-serif';
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  font-family: 'InterRegular', 'sans-serif';
+  font-size: 1.4rem;
+}
+
+p {
+  font-family: 'InterRegular', 'sans-serif';
+  font-size: 1.3rem;
 }
