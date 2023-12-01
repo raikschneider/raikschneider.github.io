@@ -5,6 +5,7 @@
     border-radius: .5rem;
     transition: all .2s ease;
     background-color: #eceff1;
+    gap: .5rem;
 }
 
 .project-card-container:hover,
@@ -25,7 +26,7 @@
 }
 
 .project-card-description-container {
-    padding-left: 1rem;
+    padding-left: 3rem;
 }
 
 .project-card-description-container h3 {
