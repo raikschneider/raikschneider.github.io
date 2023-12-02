@@ -9,23 +9,6 @@
     padding-block: 5rem;
 }
 
-.project-card-container:hover,
-.project-card-description-container button:hover {
-    transform: scale(1.03);
-    transition: all .2s ease;
-    cursor: pointer;
-}
-
-.project-card-container:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color: transparent;
-}
-
-.project-card-description-container,
-.project-card-image-container {
-    flex: 50%;
-}
-
 .project-card-description-container {
     padding-left: 3rem;
 }
@@ -51,27 +34,31 @@
     font-size: 1rem;
 }
 
-.project-card-description-container button {
+.project-card-image-container button {
+    width:12rem;
     font-family: 'InterRegular', 'sans-serif';
     font-size: 1.2rem;
     border-radius: .5rem;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border: none;
-    padding-inline: 2rem;
-    padding-block: .5rem;
+    padding-inline: 1rem;
+    padding-block: 1rem;
     color: #5e5e63;
-    margin-bottom: 2rem;
     transition: all .2s ease;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    margin-left:-6rem;
 }
 
 .project-card-image-container {
     transition: all .2s ease;
-    
+    position: relative;
 }
 
 .project-card-image-container:hover,
-.project-card-description-container button:hover {
+.project-card-image-container button:hover {
     transform: scale(1.03);
     transition: all .2s ease;
     cursor: pointer;

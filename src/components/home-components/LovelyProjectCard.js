@@ -1,7 +1,8 @@
 import React from 'react';
 import './lovely-project-card.css';
-import lovelyStrings from './lovelyProjectCardStrings.js';
-import screenshot from './../../images/codelandinglm.png'
+import buttonStrings from './buttonStrings.js';
+import LM_DE from './../../images/carbonLM_DE.png';
+import LM_EN from './../../images/carbonLM_EN.png';
 
 export default function LovelyProjectCard({ language, setCurrentPage }) {
     return (
@@ -18,8 +19,8 @@ export default function LovelyProjectCard({ language, setCurrentPage }) {
         //     </div>
         // )
         <div className="project-card-image-container">
-            <img src={screenshot} alt="screenshot of project" />
-            <button onClick={() => setCurrentPage('LovelyProject')}>{`${lovelyStrings[language.key].lovelyButton}`}</button>
+            <img src={language.key === 'de' ? LM_DE : LM_EN} alt="code snippet of project" />
+            <button onClick={() => setCurrentPage('LovelyProject')}>{`${buttonStrings[language.key].projectButton}`}</button>
         </div>
 
     )
