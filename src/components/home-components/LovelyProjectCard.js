@@ -3,7 +3,7 @@ import './lovely-project-card.css';
 import lovelyStrings from './lovelyProjectCardStrings.js';
 import screenshot from './../../images/codelandinglm.png'
 
-export default function LovelyProjectCard({ language }) {
+export default function LovelyProjectCard({ language, setCurrentPage }) {
     return (
         //     <div className="project-card-container">
         //         <div className="project-card-description-container">
@@ -19,6 +19,7 @@ export default function LovelyProjectCard({ language }) {
         // )
         <div className="project-card-image-container">
             <img src={screenshot} alt="screenshot of project" />
+            <button onClick={() => setCurrentPage('LovelyProject')}>{`${lovelyStrings[language.key].lovelyButton}`}</button>
         </div>
 
     )

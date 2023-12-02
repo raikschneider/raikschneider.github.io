@@ -9,7 +9,7 @@ export default function Home({ language, setCurrentPage }) {
     <div className="home-container">
       <Hero language={language} setCurrentPage={setCurrentPage} />
       <Technologies language={language} />
-      <Projects language={language} />
+      <Projects language={language} setCurrentPage={setCurrentPage} />
     </div>
   )
 }

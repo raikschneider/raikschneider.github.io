@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Nav from './components/Nav.js';
 import Home from './components/Home.js';
 import About from './components/About.js';
+import LovelyProject from './components/LovelyProject.js';
+import ALSProject from './components/ALSProject.js';
 import Footer from './components/Footer.js';
 import './App.css';
 
@@ -17,6 +19,8 @@ function App() {
       />
       {currentPage === 'Home' ? <Home language={language} setCurrentPage={setCurrentPage} /> : null}
       {currentPage === 'About' ? <About language={language} setCurrentPage={setCurrentPage} /> : null}
+      {currentPage === 'LovelyProject' ? <LovelyProject /> : null}
+      {currentPage === 'ALSProject' ? <ALSProject /> : null}
       <Footer />
     </div>
   );
