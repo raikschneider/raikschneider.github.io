@@ -9,31 +9,6 @@
     padding-block: 5rem;
 }
 
-.project-card-description-container {
-    padding-left: 3rem;
-}
-
-.project-card-description-container h3 {
-    font-family: 'InterRegular', 'sans-serif';
-    font-size: 2rem;
-    margin-bottom: 0;
-}
-
-.project-card-description-container span {
-    display: flex;
-    font-weight: bold;
-}
-
-.project-card-description-container span p {
-    font-size: 1rem;
-    padding-right: .5rem;
-}
-
-.project-card-description-container p {
-    font-family: 'InterRegular', 'sans-serif';
-    font-size: 1rem;
-}
-
 .project-card-image-container button {
     width:12rem;
     font-family: 'InterRegular', 'sans-serif';
@@ -71,8 +46,7 @@
     transition: all .2s ease;
 }
 
-.project-card-image-container img:hover {
+.dropshadow {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color: transparent;
     transition: all .2s ease;
 }

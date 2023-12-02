@@ -1,6 +1,14 @@
 import React from 'react';
 import './technologies.css';
-import technologyStrings from './technologyStrings.js';
+
+const technologyStrings = {
+  en: {
+      technologyH2: `Technologies I'm familiar with`
+  },
+  de: {
+      technologyH2: `Technologien, mit denen ich mich auskenne`
+  }
+}
 
 export default function Technologies({ language }) {
   return (
