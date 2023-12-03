@@ -1,0 +1,27 @@
+.technologies-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.technologies-images-container {
+    display: flex;
+    gap: 3rem;
+}
+
+.technologies-element-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.technologies-element-container img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.technologies-element-container p {
+    color: #1990a8;
+}
