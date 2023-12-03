@@ -7,7 +7,7 @@ export default function Hero({ language, setCurrentPage }) {
     return (
         <div className="hero-container">
             <h1>{`${heroStrings[language.key].heroH1}`}</h1>
-            <span><img src={gpsIcon}></img><p>{`${heroStrings[language.key].heroLocation}`}</p></span>
+            <span><img src={gpsIcon} alt="GPS Pin"></img><p>{`${heroStrings[language.key].heroLocation}`}</p></span>
             <p>{`${heroStrings[language.key].heroParagraph}`}</p>
         </div>
     )

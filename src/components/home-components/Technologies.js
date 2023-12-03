@@ -22,19 +22,19 @@ export default function Technologies({ language }) {
       <h2>{`${technologyStrings[language.key].technologyH2}`}</h2>
       <div className="technologies-images-container">
         <div className="technologies-element-container">
-          <img src={jsIcon}></img><p>Javascript</p>
+          <img src={jsIcon} alt="Javascript Icon"></img><p>Javascript</p>
         </div>
         <div className="technologies-element-container">
-          <img src={reactIcon}></img><p>React</p>
+          <img src={reactIcon} alt="React Icon"></img><p>React</p>
         </div>
         <div className="technologies-element-container">
-          <img src={expressIcon}></img><p>ExpressJS</p>
+          <img src={expressIcon} alt="ExpressJS Icon"></img><p>ExpressJS</p>
         </div>
         <div className="technologies-element-container">
-          <img src={nodeIcon}></img><p>Node.js</p>
+          <img src={nodeIcon} alt="Node.js Icon"></img><p>Node.js</p>
         </div>
         <div className="technologies-element-container">
-          <img src={gitIcon}></img><p>Git</p>
+          <img src={gitIcon} alt="Git Icon"></img><p>Git</p>
         </div>
       </div>
     </div>

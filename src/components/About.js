@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import manaliso1 from './../images/manaliso1.jpg'
 
 export default function About({ setCurrentPage }) {
 
-    // have to replace "javascript:void(0)" with a different solution, since it throws a massive warning in the console
     return (
-        <div><a href='javascript:void(0)' onClick={() => setCurrentPage('Home')}>BACK</a>About</div>
+        <div className="about-container">
+            <img src={manaliso1} alt="man on a bike"></img>
+        </div>
     )
 }
