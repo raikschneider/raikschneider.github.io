@@ -19,10 +19,14 @@ export default function Projects({ language, setCurrentPage }) {
     }
 
     return (
-        <div className="project-cards-container">
+        <>
             <h2>{`${projectsStrings[language.key].projectH2}`}</h2>
-            <LovelyProjectCard language={language} setCurrentPage={setCurrentPage} toggleDropshadow={toggleDropshadow} />
-            <ALSProjectCard language={language} setCurrentPage={setCurrentPage} toggleDropshadow={toggleDropshadow} />
-        </div>
+            <div className="project-cards-container">
+
+                <LovelyProjectCard language={language} setCurrentPage={setCurrentPage} toggleDropshadow={toggleDropshadow} />
+                <ALSProjectCard language={language} setCurrentPage={setCurrentPage} toggleDropshadow={toggleDropshadow} />
+            </div>
+        </>
+
     )
 }
