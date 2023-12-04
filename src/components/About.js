@@ -17,7 +17,6 @@ export default function About({ language, setCurrentPage }) {
                 <p>{`${aboutStrings[language.key].aboutP3}`}</p>
                 <p>{`${aboutStrings[language.key].aboutP4}`}</p>
             </div>
-
         </div>
     )
 }
