@@ -5,10 +5,15 @@ const lovelyProjectStrings = {
         lovelyP3: `The app has a built-in interface to make changes to individual materials, in case prices or dimensions change in the future. With the help of Node.js on the backend, the user is able to modify, add or delete materials and their respective values.`,
         lovelyP4: `Each selection is stored with the help of React's useContext hook, which allows changes in selection made by the user to be displayed and recalculated live. UseContext allows for easy transfer of data between components within the app.`,
         lovelyP5: `If an order consists of multiple parts and requires selection of frames and crates of various sizes, the user is able to split their selections into multiple parts with the app being able to separate all calculations and selections made correctly.`,
-        lovelyP6: `When all selections have been made, documents are created and the order including all its files are stored locally and can be re-opened at a later time.`
+        lovelyP6: `When all selections have been made, documents are created and the order including all its files are being stored locally and can be re-opened at a later time. Orders are categorized by customer and date and thus easy to find.`
     },
     de: {
-        lovelyP1: 'Lovely Manager ist eine plattformübergreifende Desktop-Anwendung für die Berliner Rahmenmanufaktur Lovely Projects. Die App ermöglicht ein geschätztes wöchentliches Zeitersparnis von 15 Arbeitsstunden durch automatisierte Kosten- und Rahmenmaßberechnungen, sowie das Ausgeben von Kundendokumenten und Laufzetteln für die Arbeiter.'
+        lovelyP1: 'Lovely Manager ist eine plattformübergreifende Desktop-Anwendung für die Berliner Rahmenmanufaktur Lovely Projects. Die App ermöglicht ein geschätztes wöchentliches Zeitersparnis von 15 Arbeitsstunden durch automatisierte Kosten- und Rahmenmaßberechnungen, sowie das Ausgeben von Kundendokumenten und Laufzetteln für die Arbeiter.',
+        lovelyP2: `Alle Materialien und die für Berechnungen notwendigen Werte werden lokal in JSON-Dateien gespeichert. Die Dateien werden von der App ausgelesen und die Materialien werden im Frontend via Ausklappmenüs angezeigt.`,
+        lovelyP3: 'In der App findet sich außerdem eine Oberfläche, die es dem Nutzer ermöglicht, Änderungen an den Materialien und den dazugehörigen Werten vorzunehmen, falls sich Preise und Dimensionen in der Zukunft ändern sollten. Mit der Hilfe von Node.js kann der Benutzer ganz leicht Materialien und die respektiven Werte bearbeiten, hinzufügen oder löschen.',
+        lovelyP4: 'Jede Auswahl wird mit der Hilfe von Reacts useContext-Hook innerhalb der App gespeichert und kann somit einfach zwischen Komponenten hin- und hergereicht werden, sollten diese die Daten benötigen. Sämtliche Änderungen können dadurch sofort live ausgewertet und angezeigt werden.',
+        lovelyP5: 'Sollte ein Auftrag aus mehreren Teilen bestehen, weil Rahmen und/oder Kisten in unterschiedlichen Größen angefordert werden, kann der Nutzer den Auftrag in mehrere Teile separieren. Alle Kalkulationen und Auswahlen werden von der App korrekt getrennt voneinander, Teil für Teil, ausgewertet.',
+        lovelyP6: 'Wenn alle Auswahlen getroffen wurden, werden die Dokumente erstellt und der Auftrag inklusive allen Dateien lokal abgespeichert. Da jeder Auftrag nach Kunde und Datum kategorisiert wird, ist er später leicht zu finden und kann erneut aufgerufen werden, um eventuelle Änderungen vorzunehmen.'
     }
 }
 
