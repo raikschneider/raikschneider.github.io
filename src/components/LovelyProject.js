@@ -1,15 +1,18 @@
 import React from 'react';
 import './lovely-project.css';
 import lovelyProjectStrings from './lovelyProjectStrings.js';
+import MainWindowScreen from './../images/Main_Window_Screenshot1.png';
 
 export default function LovelyProject({ language }) {
   return (
     <div className="project-container">
-      <h2>Lovely Manager</h2>
+      {/* <h2>Lovely Manager</h2> */}
       <div className="project-paragraph-container">
         <h3>{`${lovelyProjectStrings[language.key].lovelyH1}`}</h3>
         <p>{`${lovelyProjectStrings[language.key].lovelyP1}`}</p>
-        <div className="project-images"></div>
+        <div className="project-images">
+          <img src={MainWindowScreen}></img>
+        </div>
       </div>
       <div className="project-paragraph-container">
         <h3>{`${lovelyProjectStrings[language.key].lovelyH2}`}</h3>

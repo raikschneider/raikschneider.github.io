@@ -1,11 +1,27 @@
-.project-container {
+.project-container, .project-images {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5rem;
+    padding-top: 2rem; 
 }
 
 .project-paragraph-container h3 {
     font-family:'InterRegular';
     color: #1990a8;
+    font-size: 1.3rem;
+}
+
+.project-paragraph-container p {
+    font-size: 1.3rem;
+}
+
+.project-images {
+    padding-top: 2rem; 
+}
+
+.project-images img {
+    width: 80%;
+    border-radius: .5rem;
 }
