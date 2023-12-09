@@ -4,3 +4,8 @@
     justify-content: center;
     align-items: center;
 }
+
+.project-paragraph-container h3 {
+    font-family:'InterRegular';
+    color: #1990a8;
+}

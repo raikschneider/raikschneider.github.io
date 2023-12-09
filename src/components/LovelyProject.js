@@ -6,12 +6,36 @@ export default function LovelyProject({ language }) {
   return (
     <div className="project-container">
       <h2>Lovely Manager</h2>
-      <p>{`${lovelyProjectStrings[language.key].lovelyP1}`}</p>
-      <p>{`${lovelyProjectStrings[language.key].lovelyP2}`}</p>
-      <p>{`${lovelyProjectStrings[language.key].lovelyP3}`}</p>
-      <p>{`${lovelyProjectStrings[language.key].lovelyP4}`}</p>
-      <p>{`${lovelyProjectStrings[language.key].lovelyP5}`}</p>
-      <p>{`${lovelyProjectStrings[language.key].lovelyP6}`}</p>
+      <div className="project-paragraph-container">
+        <h3>{`${lovelyProjectStrings[language.key].lovelyH1}`}</h3>
+        <p>{`${lovelyProjectStrings[language.key].lovelyP1}`}</p>
+        <div className="project-images"></div>
+      </div>
+      <div className="project-paragraph-container">
+        <h3>{`${lovelyProjectStrings[language.key].lovelyH2}`}</h3>
+        <p>{`${lovelyProjectStrings[language.key].lovelyP2}`}</p>
+        <div className="project-images"></div>
+      </div>
+      <div className="project-paragraph-container">
+        <h3>{`${lovelyProjectStrings[language.key].lovelyH3}`}</h3>
+        <p>{`${lovelyProjectStrings[language.key].lovelyP3}`}</p>
+        <div className="project-images"></div>
+      </div>
+      <div className="project-paragraph-container">
+        <h3>{`${lovelyProjectStrings[language.key].lovelyH4}`}</h3>
+        <p>{`${lovelyProjectStrings[language.key].lovelyP4}`}</p>
+        <div className="project-images"></div>
+      </div>
+      <div className="project-paragraph-container">
+        <h3>{`${lovelyProjectStrings[language.key].lovelyH5}`}</h3>
+        <p>{`${lovelyProjectStrings[language.key].lovelyP5}`}</p>
+        <div className="project-images"></div>
+      </div>
+      <div className="project-paragraph-container">
+      <h3>{`${lovelyProjectStrings[language.key].lovelyH6}`}</h3>
+        <p>{`${lovelyProjectStrings[language.key].lovelyP6}`}</p>
+        <div className="project-images"></div>
+      </div>
     </div>
   )
 }
