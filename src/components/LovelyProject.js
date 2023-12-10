@@ -19,7 +19,7 @@ export default function LovelyProject({ language }) {
         <h3>{`${lovelyProjectStrings[language.key].lovelyH2}`}</h3>
         <p>{`${lovelyProjectStrings[language.key].lovelyP2}`}</p>
         <div className="project-images">
-          <video width="750" height="500" controls >
+          <video width="750" height="500" autoPlay loop muted >
             <source src={Dropdown} type="video/mp4" />
           </video>
         </div>
