@@ -2,6 +2,7 @@ import React from 'react';
 import './lovely-project.css';
 import lovelyProjectStrings from './lovelyProjectStrings.js';
 import MainWindowScreen from './../images/Main_Window_Screenshot1.png';
+import Dropdown from './../images/Dropdown_Video.mp4';
 
 export default function LovelyProject({ language }) {
   return (
@@ -17,7 +18,11 @@ export default function LovelyProject({ language }) {
       <div className="project-paragraph-container">
         <h3>{`${lovelyProjectStrings[language.key].lovelyH2}`}</h3>
         <p>{`${lovelyProjectStrings[language.key].lovelyP2}`}</p>
-        <div className="project-images"></div>
+        <div className="project-images">
+          <video width="750" height="500" controls >
+            <source src={Dropdown} type="video/mp4" />
+          </video>
+        </div>
       </div>
       <div className="project-paragraph-container">
         <h3>{`${lovelyProjectStrings[language.key].lovelyH3}`}</h3>
@@ -35,7 +40,7 @@ export default function LovelyProject({ language }) {
         <div className="project-images"></div>
       </div>
       <div className="project-paragraph-container">
-      <h3>{`${lovelyProjectStrings[language.key].lovelyH6}`}</h3>
+        <h3>{`${lovelyProjectStrings[language.key].lovelyH6}`}</h3>
         <p>{`${lovelyProjectStrings[language.key].lovelyP6}`}</p>
         <div className="project-images"></div>
       </div>
