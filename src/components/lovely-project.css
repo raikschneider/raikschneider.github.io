@@ -1,14 +1,16 @@
-.project-container, .project-images {
+.project-container,
+.project-images,
+.video-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    padding-top: 2rem; 
+    padding-top: 2rem;
 }
 
 .project-paragraph-container h3 {
-    font-family:'InterRegular';
+    font-family: 'InterRegular';
     color: #1990a8;
     font-size: 1.3rem;
 }
@@ -18,10 +20,18 @@
 }
 
 .project-images {
-    padding-top: 2rem; 
+    padding-top: 2rem;
 }
 
-.project-images img {
+.project-images img,
+.video-container video {
     width: 80%;
     border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.video-container video{
+    border-radius: .5rem;
+    overflow: hidden;
+    -webkit-transform: translateZ(0);
 }
