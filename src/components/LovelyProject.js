@@ -3,6 +3,7 @@ import './lovely-project.css';
 import lovelyProjectStrings from './lovelyProjectStrings.js';
 import MainWindowScreen from './../images/Main_Window_Screenshot1.png';
 import Dropdown from './../images/Dropdown_Video.mp4';
+import Teile from './../images/Teile_Video.mp4';
 
 export default function LovelyProject({ language }) {
   return (
@@ -37,7 +38,11 @@ export default function LovelyProject({ language }) {
       <div className="project-paragraph-container">
         <h3>{`${lovelyProjectStrings[language.key].lovelyH5}`}</h3>
         <p>{`${lovelyProjectStrings[language.key].lovelyP5}`}</p>
-        <div className="project-images"></div>
+        <div className="video-container">
+          <video autoPlay loop muted >
+            <source src={Teile} type="video/mp4" />
+          </video>
+        </div>
       </div>
       <div className="project-paragraph-container">
         <h3>{`${lovelyProjectStrings[language.key].lovelyH6}`}</h3>
