@@ -1,13 +1,14 @@
-.about-container, .about-paragraphs-container {
+.about-container,
+.about-paragraphs-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.about-container img {
+.about-images-container img {
     border-radius: .8rem;
-    width: 30rem;
+    width: auto;
 }
 
 .about-paragraphs-container {
@@ -16,4 +17,25 @@
 
 .about-container p {
     font-size: 1.2rem;
+}
+
+.about-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#june {
+    height: 20rem;
+    margin: 0 --.2rem;
+}
+
+#manaliso {
+    z-index: 1;
+    height: 25rem;
+}
+
+#climbing {
+    height: 20rem;
+    margin: 0 -1.5rem;
 }
