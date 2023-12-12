@@ -39,6 +39,7 @@
 #june {
     height: 20rem;
     margin: 0 -.2rem;
+    filter: brightness(1.4);
 }
 
 #manaliso {
@@ -49,4 +50,5 @@
 #climbing {
     height: 20rem;
     margin: 0 -1.5rem;
+    filter: brightness(1.1);
 }
