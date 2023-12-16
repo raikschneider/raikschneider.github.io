@@ -20,7 +20,7 @@ function App() {
       {currentPage === 'Home' ? <Home language={language} setCurrentPage={setCurrentPage} /> : null}
       {currentPage === 'About' ? <About language={language} setCurrentPage={setCurrentPage} /> : null}
       {currentPage === 'LovelyProject' ? <LovelyProject language={language} /> : null}
-      {currentPage === 'ALSProject' ? <ALSProject /> : null}
+      {currentPage === 'ALSProject' ? <ALSProject language={language} /> : null}
       <Footer />
     </div>
   );
