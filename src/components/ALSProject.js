@@ -10,6 +10,12 @@ export default function ALSProject({ language }) {
         <div className="project-images">
         </div>
       </div>
+      <div className="project-paragraph-container">
+        <h3>{`${alsProjectStrings[language.key].alsH2}`}</h3>
+        <p>{`${alsProjectStrings[language.key].alsP2}`}</p>
+        <div className="project-images">
+        </div>
+      </div>
     </div>
   )
 }
