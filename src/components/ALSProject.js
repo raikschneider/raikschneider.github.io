@@ -17,6 +17,15 @@ export default function ALSProject({ language }) {
         <div className="project-images">
         </div>
       </div>
+      <div className="project-paragraph-container">
+        <h3>{`${alsProjectStrings[language.key].alsH3}`}</h3>
+        <p>{`${alsProjectStrings[language.key].alsP3}`}</p>
+        <div className="video-container">
+          <video autoPlay loop muted >
+            <source src={Locale} type="video/mp4" />
+          </video>
+        </div>
+      </div>
     </div>
   )
 }
