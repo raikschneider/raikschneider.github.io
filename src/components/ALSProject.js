@@ -1,5 +1,6 @@
 import React from 'react';
 import alsProjectStrings from './alsProjectStrings.js';
+import Locale from './../images/Locale_Video.mp4';
 
 export default function ALSProject({ language }) {
   return (
