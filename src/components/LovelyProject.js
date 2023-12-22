@@ -2,6 +2,7 @@ import React from 'react';
 import './lovely-project.css';
 import lovelyProjectStrings from './lovelyProjectStrings.js';
 import MainWindowScreen from './../images/Main_Window_Screenshot1.png';
+import ModificationInterface1 from './../images/Modification_Interface1.png';
 import Dropdown from './../images/Dropdown_Video.mp4';
 import Teile from './../images/Teile_Video.mp4';
 
@@ -28,7 +29,9 @@ export default function LovelyProject({ language }) {
       <div className="project-paragraph-container">
         <h3>{`${lovelyProjectStrings[language.key].lovelyH3}`}</h3>
         <p>{`${lovelyProjectStrings[language.key].lovelyP3}`}</p>
-        <div className="project-images"></div>
+        <div className="project-images">
+        <img src={ModificationInterface1}></img>
+        </div>
       </div>
       <div className="project-paragraph-container">
         <h3>{`${lovelyProjectStrings[language.key].lovelyH4}`}</h3>
