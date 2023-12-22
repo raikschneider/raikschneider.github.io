@@ -14,7 +14,7 @@ export default function LovelyProject({ language }) {
         <h3>{`${lovelyProjectStrings[language.key].lovelyH1}`}</h3>
         <p>{`${lovelyProjectStrings[language.key].lovelyP1}`}</p>
         <div className="project-images">
-          <img src={MainWindowScreen}></img>
+          <img src={MainWindowScreen} alt='app main form interface screenshot'></img>
         </div>
       </div>
       <div className="project-paragraph-container">
@@ -30,7 +30,7 @@ export default function LovelyProject({ language }) {
         <h3>{`${lovelyProjectStrings[language.key].lovelyH3}`}</h3>
         <p>{`${lovelyProjectStrings[language.key].lovelyP3}`}</p>
         <div className="project-images">
-        <img src={ModificationInterface1}></img>
+        <img src={ModificationInterface1} alt='app settings interface screenshot'></img>
         </div>
       </div>
       <div className="project-paragraph-container">
