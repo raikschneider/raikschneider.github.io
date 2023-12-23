@@ -11,7 +11,9 @@ const lovelyProjectStrings = {
         lovelyH5: 'What if a customer orders multiple frames?',
         lovelyP5: `If an order consists of multiple parts and requires selection of frames and crates of various sizes, the user is able to split their selections into multiple parts with the app being able to separate all calculations and selections made correctly.`,
         lovelyH6: 'What happens when all selections have been made?',
-        lovelyP6: `When all selections have been made, documents are created and the order including all its files are being stored locally and can be re-opened at a later time. Orders are categorized by customer and date and are thus easy to find.`
+        lovelyP6: `When all selections have been made, documents are created and the order including all its files are being stored locally and can be re-opened at a later time. Orders are categorized by customer and date and are thus easy to find.`,
+        lovelyH7: 'Resumé',
+        lovelyP7: `I was working on this project on and off for over two years. It was a great tool for growing my skills and learning about app design. Working closely with the client and adapting to their feedback and needs was both challenging and rewarding.`
     },
     de: {
         lovelyH1: 'Was ist Lovely Manager?',
@@ -25,7 +27,9 @@ const lovelyProjectStrings = {
         lovelyH5: 'Und wenn der Kunde mehrere Rahmen bestellen möchte?',
         lovelyP5: 'Sollte ein Auftrag aus mehreren Teilen bestehen, weil Rahmen und/oder Kisten in unterschiedlichen Größen angefordert werden, kann der Nutzer den Auftrag in mehrere Teile separieren. Alle Kalkulationen und Auswahlen werden von der App korrekt und getrennt voneinander - Teil für Teil - ausgewertet.',
         lovelyH6: 'Was passiert, wenn alle Auswahlen getroffen wurden?',
-        lovelyP6: 'Wenn alle Auswahlen getroffen wurden, werden die Dokumente erstellt und der Auftrag inklusive allen Dateien lokal abgespeichert. Da jeder Auftrag nach Kunde und Datum kategorisiert wird, ist er später leicht zu finden und kann erneut aufgerufen werden, um eventuelle Änderungen vorzunehmen.'
+        lovelyP6: 'Wenn alle Auswahlen getroffen wurden, werden die Dokumente erstellt und der Auftrag inklusive allen Dateien lokal abgespeichert. Da jeder Auftrag nach Kunde und Datum kategorisiert wird, ist er später leicht zu finden und kann erneut aufgerufen werden, um eventuelle Änderungen vorzunehmen.',
+        lovelyH7: 'Zusammenfassung',
+        lovelyP7: 'In diesem Projekt stecken mehr als 2 Jahre Arbeit, die sowohl herausforderend als auch genugtuend waren. Die Erfahrung, nah mit einem Kunden zu arbeiten und auf Feedback und Wünsche reagieren zu können, war eine großartige Möglichkeit, mich sowohl als Programmierer als auch als Mensch weiterzuentwickeln.'
     }
 }
 
