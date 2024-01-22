@@ -16,18 +16,21 @@ function App() {
     window.scrollTo(0, 0)
   }
   return (
-    <div className="page-wrapper">
+    <>
       <Nav
         language={language}
         setLanguage={setLanguage}
         switchPage={switchPage}
       />
-      {currentPage === 'Home' ? <Home language={language} switchPage={switchPage} /> : null}
-      {currentPage === 'About' ? <About language={language} switchPage={switchPage} /> : null}
-      {currentPage === 'LovelyProject' ? <LovelyProject language={language} /> : null}
-      {currentPage === 'ALSProject' ? <ALSProject language={language} /> : null}
-      <Footer />
-    </div>
+      <div className="page-wrapper">
+
+        {currentPage === 'Home' ? <Home language={language} switchPage={switchPage} /> : null}
+        {currentPage === 'About' ? <About language={language} switchPage={switchPage} /> : null}
+        {currentPage === 'LovelyProject' ? <LovelyProject language={language} /> : null}
+        {currentPage === 'ALSProject' ? <ALSProject language={language} /> : null}
+        <Footer />
+      </div>
+    </>
   );
 }
 
