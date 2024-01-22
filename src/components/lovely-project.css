@@ -9,14 +9,24 @@
     padding-top: 2rem;
 }
 
+.project-cover-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-cover-container img {
+    width: 60%;
+}
+
 .project-paragraph-container h3 {
     font-family: 'InterRegular';
     color: #1990a8;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .project-paragraph-container p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .project-images {

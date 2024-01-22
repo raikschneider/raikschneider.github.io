@@ -3,6 +3,7 @@ import './lovely-project.css';
 import lovelyProjectStrings from './lovelyProjectStrings.js';
 import MainWindowScreen from './../images/Main_Window_Screenshot1.png';
 import ModificationInterface1 from './../images/Modification_Interface1.png';
+import LovelyCover from './../images/lovely-cover.jpg';
 import Dropdown from './../images/Dropdown_Video.mp4';
 import Teile from './../images/Teile_Video.mp4';
 
@@ -10,7 +11,11 @@ export default function LovelyProject({ language }) {
   return (
     <div className="project-container">
       {/* <h2>Lovely Manager</h2> */}
-      <div className="project-paragraph-container">
+      <div className="project-cover-container">
+        <img src={LovelyCover} alt='rack displaying finished frames' />
+      </div>
+
+      <div className="project-paragraph-container project-brief-container" id="LovelyBrief">
         <h3>{`${lovelyProjectStrings[language.key].lovelyH1}`}</h3>
         <p>{`${lovelyProjectStrings[language.key].lovelyP1}`}</p>
         <div className="project-images">
@@ -30,7 +35,7 @@ export default function LovelyProject({ language }) {
         <h3>{`${lovelyProjectStrings[language.key].lovelyH3}`}</h3>
         <p>{`${lovelyProjectStrings[language.key].lovelyP3}`}</p>
         <div className="project-images">
-        <img src={ModificationInterface1} alt='app settings interface screenshot'></img>
+          <img src={ModificationInterface1} alt='app settings interface screenshot'></img>
         </div>
       </div>
       <div className="project-paragraph-container">
