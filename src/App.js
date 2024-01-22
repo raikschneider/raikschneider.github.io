@@ -28,7 +28,7 @@ function App() {
         {currentPage === 'About' ? <About language={language} switchPage={switchPage} /> : null}
         {currentPage === 'LovelyProject' ? <LovelyProject language={language} /> : null}
         {currentPage === 'ALSProject' ? <ALSProject language={language} /> : null}
-        <Footer />
+        <Footer language={language} />
       </div>
     </>
   );
