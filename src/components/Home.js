@@ -4,12 +4,12 @@ import Technologies from './home-components/Technologies.js'
 import Projects from './home-components/Projects.js'
 import './home.css';
 
-export default function Home({ language, setCurrentPage }) {
+export default function Home({ language, switchPage }) {
   return (
     <div className="home-container">
-      <Hero language={language} setCurrentPage={setCurrentPage} />
+      <Hero language={language} switchPage={switchPage} />
       <Technologies language={language} />
-      <Projects language={language} setCurrentPage={setCurrentPage} />
+      <Projects language={language} switchPage={switchPage} />
     </div>
   )
 }

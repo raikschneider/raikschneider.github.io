@@ -1,11 +1,8 @@
-import React, { useEffect } from 'react';
+import React  from 'react';
 import alsProjectStrings from './alsProjectStrings.js';
 import Locale from './../images/Locale_Video.mp4';
 
 export default function ALSProject({ language }) {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
   return (
     <div className="project-container">
       <div className="project-paragraph-container">

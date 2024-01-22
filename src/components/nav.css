@@ -8,16 +8,24 @@
     min-height: 10%;
     padding-block: 1rem;
     user-select: none;
+    z-index: 99;
 }
 
-.page-link-element, .locale-toggle-container {
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+.page-link-element,
+.locale-toggle-container {
     cursor: pointer;
     transition: all .2s ease;
     min-width: 7rem;
     text-align: center;
 }
 
-.page-link-element:hover, .locale-toggle-container:hover {
+.page-link-element:hover,
+.locale-toggle-container:hover {
     transition: all .2s ease;
     transform: scale(1.1);
 }

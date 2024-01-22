@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './nav.css';
 
 const navStrings = {
@@ -10,10 +10,15 @@ const navStrings = {
         homeDiv: 'Start',
         aboutDiv: 'Über mich'
     }
-}   
+}
 
-export default function Nav({ language, setLanguage, setCurrentPage }) {
+export default function Nav({ language, setLanguage, switchPage }) {
 
+    const toggleSticky = () => {
+        const navbar = document.querySelector('nav-container');
+        const sticky = navbar.offsetTop;
+        return window.pageYOffset >= sticky ? 'sticky' : null
+    }
     const toggleLanguage = (lang) => {
         if (lang.key === 'de') {
             setLanguage({ key: 'en', string: 'DE' })
@@ -21,11 +26,10 @@ export default function Nav({ language, setLanguage, setCurrentPage }) {
             setLanguage({ key: 'de', string: 'EN' })
         }
     }
-
     return (
-        <div className="nav-container">
-            <div className="page-link-element" onClick={() => setCurrentPage('Home')}>{`${navStrings[language.key].homeDiv}`}</div>
-            <div className="page-link-element" onClick={() => setCurrentPage('About')}>{`${navStrings[language.key].aboutDiv}`}</div>
+        <div className={`nav-container ${toggleSticky}`}>
+            <div className="page-link-element" onClick={() => switchPage('Home')}>{`${navStrings[language.key].homeDiv}`}</div>
+            <div className="page-link-element" onClick={() => switchPage('About')}>{`${navStrings[language.key].aboutDiv}`}</div>
             <div
                 className="locale-toggle-container"
                 onClick={() => toggleLanguage(language)}>

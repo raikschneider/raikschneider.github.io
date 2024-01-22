@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import manaliso1 from './../images/manaliso1.jpg'
 import june1 from './../images/june1.jpg'
 import climbing2 from './../images/climbing2.jpg'
@@ -6,9 +6,6 @@ import './about.css'
 import aboutStrings from './aboutStrings.js';
 
 export default function About({ language }) {
-    useEffect(() => {
-        window.scrollTo(0, 0)
-      }, [])
     return (
         <div className="about-container">
             <div className="about-images-container">

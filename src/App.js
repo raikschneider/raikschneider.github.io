@@ -10,15 +10,20 @@ import './App.css';
 function App() {
   const [language, setLanguage] = useState({ key: 'de', string: 'EN' })
   const [currentPage, setCurrentPage] = useState('Home');
+
+  const switchPage = (page) => {
+    setCurrentPage(page)
+    window.scrollTo(0, 0)
+  }
   return (
     <div className="page-wrapper">
       <Nav
         language={language}
         setLanguage={setLanguage}
-        setCurrentPage={setCurrentPage}
+        switchPage={switchPage}
       />
-      {currentPage === 'Home' ? <Home language={language} setCurrentPage={setCurrentPage} /> : null}
-      {currentPage === 'About' ? <About language={language} setCurrentPage={setCurrentPage} /> : null}
+      {currentPage === 'Home' ? <Home language={language} switchPage={switchPage} /> : null}
+      {currentPage === 'About' ? <About language={language} switchPage={switchPage} /> : null}
       {currentPage === 'LovelyProject' ? <LovelyProject language={language} /> : null}
       {currentPage === 'ALSProject' ? <ALSProject language={language} /> : null}
       <Footer />

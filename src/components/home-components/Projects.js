@@ -12,7 +12,7 @@ const projectsStrings = {
     }
 }
 
-export default function Projects({ language, setCurrentPage }) {
+export default function Projects({ language, switchPage }) {
 
     const toggleDropshadow = (el) => {
         el.classList.toggle('dropshadow')
@@ -23,8 +23,8 @@ export default function Projects({ language, setCurrentPage }) {
             <h2>{`${projectsStrings[language.key].projectH2}`}</h2>
             <div className="project-cards-container">
 
-                <LovelyProjectCard language={language} setCurrentPage={setCurrentPage} toggleDropshadow={toggleDropshadow} />
-                <ALSProjectCard language={language} setCurrentPage={setCurrentPage} toggleDropshadow={toggleDropshadow} />
+                <LovelyProjectCard language={language} switchPage={switchPage} toggleDropshadow={toggleDropshadow} />
+                <ALSProjectCard language={language} switchPage={switchPage} toggleDropshadow={toggleDropshadow} />
             </div>
         </>
 
