@@ -1,6 +1,6 @@
 const lovelyProjectStrings = {
     en: {
-        lovelyH1: `What's Lovely Manager?`,
+        lovelyH1: `Project Brief?`,
         lovelyP1: 'Lovely Manager is a cross-platform desktop application for Berlin frame manufacturing collective Lovely Projects. The app is estimated to save around 15 hours of work weekly by automating cost and frame measurement calculations and outputting documents for clients and work sheets. Lovely Manager was built in Electron using Node.js and the React framework.',
         lovelyH2: 'Where is the data coming from?',
         lovelyP2: 'Hundreds of different materials and their respective values necessary for cost and measurement calculations are being stored locally in categorized JSON files. Lovely Manager reads the files and displays the materials in dropdown menus in the frontend.',
@@ -16,7 +16,7 @@ const lovelyProjectStrings = {
         lovelyP7: `I was working on this project on and off for over two years. It was a great tool for growing my skills and learning about app design. Working closely with the client and adapting to their feedback and needs was both challenging and rewarding.`
     },
     de: {
-        lovelyH1: 'Was ist Lovely Manager?',
+        lovelyH1: 'Projektbeschreibung',
         lovelyP1: 'Lovely Manager ist eine plattformübergreifende Desktop-Anwendung für die Berliner Rahmenmanufaktur Lovely Projects. Die App ermöglicht ein geschätztes wöchentliches Zeitersparnis von 15 Arbeitsstunden durch automatisierte Kosten- und Rahmenmaßberechnungen, sowie das Ausgeben von Kundendokumenten und Laufzetteln für die Arbeiter. Lovely Manager läuft in Electron und wurde mit React und Node.js gebaut.',
         lovelyH2: 'Woher kommen die Daten?',
         lovelyP2: `Hunderte Materialien und die für Berechnungen notwendigen Werte werden lokal in JSON-Dateien kategorisiert und gespeichert. Die Dateien werden vom Lovely Manager ausgelesen und die Materialien werden im Frontend via Ausklappmenüs angezeigt.`,

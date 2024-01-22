@@ -18,9 +18,11 @@ export default function LovelyProject({ language }) {
         <img src={LovelyCover} alt='rack displaying finished frames' />
       </div>
 
-      <div className="project-paragraph-container project-brief-container" id="LovelyBrief">
-        <h3>{`${lovelyProjectStrings[language.key].lovelyH1}`}</h3>
-        <p>{`${lovelyProjectStrings[language.key].lovelyP1}`}</p>
+      <div className="project-paragraph-container">
+        <div className="project-brief-container">
+          <h3>{`${lovelyProjectStrings[language.key].lovelyH1}`}</h3>
+          <p>{`${lovelyProjectStrings[language.key].lovelyP1}`}</p>
+        </div>
         <div className="project-images">
           <img src={MainWindowScreen} alt='app main form interface screenshot'></img>
         </div>
