@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './lovely-project.css';
 import lovelyProjectStrings from './lovelyProjectStrings.js';
 import MainWindowScreen from './../images/Main_Window_Screenshot1.png';
@@ -8,6 +8,9 @@ import Dropdown from './../images/Dropdown_Video.mp4';
 import Teile from './../images/Teile_Video.mp4';
 
 export default function LovelyProject({ language }) {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="project-container">
       {/* <h2>Lovely Manager</h2> */}
