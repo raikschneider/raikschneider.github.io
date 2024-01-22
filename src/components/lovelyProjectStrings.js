@@ -12,7 +12,7 @@ const lovelyProjectStrings = {
         lovelyP5: `If an order consists of multiple parts and requires selection of frames and crates of various sizes, the user is able to split their selections into multiple parts with the app being able to separate all calculations and selections made correctly.`,
         lovelyH6: 'What happens when all selections have been made?',
         lovelyP6: `When all selections have been made, documents are created and the order including all its files are being stored locally and can be re-opened at a later time. Orders are categorized by customer and date and are thus easy to find.`,
-        lovelyH7: 'Resumé',
+        lovelyH7: 'Summary',
         lovelyP7: `I was working on this project on and off for over two years. It was a great tool for growing my skills and learning about app design. Working closely with the client and adapting to their feedback and needs was both challenging and rewarding.`
     },
     de: {
