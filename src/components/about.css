@@ -26,6 +26,12 @@
     width: 80%;
 }
 
+.about-paragraphs-container h1 {
+    background: linear-gradient(90deg, rgba(94,94,99,1) 0%, rgba(76,76,147,1) 58%, rgba(25,144,168,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .about-container p {
     font-size: 1.2rem;
 }
@@ -34,6 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 4rem;
 }
 
 #june {
