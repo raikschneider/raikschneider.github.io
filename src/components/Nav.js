@@ -1,4 +1,5 @@
 import React from 'react';
+import globe from './../icons/icons8-globe-50.png';
 import './nav.css';
 
 const navStrings = {
@@ -33,7 +34,7 @@ export default function Nav({ language, setLanguage, switchPage }) {
             <div
                 className="locale-toggle-container"
                 onClick={() => toggleLanguage(language)}>
-                {`${language.string}`}
+                <img src={globe} alt="globe icon" /><p>{`${language.string}`}</p>
             </div>
         </div>
     )
