@@ -29,7 +29,7 @@ const lovelyProjectStrings = {
         lovelyH6: 'Was passiert, wenn alle Auswahlen getroffen wurden?',
         lovelyP6: 'Wenn alle Auswahlen getroffen wurden, werden die Dokumente erstellt und der Auftrag inklusive allen Dateien lokal abgespeichert. Da jeder Auftrag nach Kunde und Datum kategorisiert wird, ist er später leicht zu finden und kann erneut aufgerufen werden, um eventuelle Änderungen vorzunehmen.',
         lovelyH7: 'Zusammenfassung',
-        lovelyP7: 'In diesem Projekt stecken mehr als 2 Jahre Arbeit, die sowohl herausforderend als auch genugtuend waren. Die Erfahrung, nah mit einem Kunden zu arbeiten und auf Feedback und Wünsche reagieren zu können, war eine großartige Möglichkeit, mich sowohl als Programmierer als auch als Mensch weiterzuentwickeln. Die App ermöglicht ein wöchtentliches Zeitersparnis von etwa 15 Stunden und bereichert und optimiert somit Arbeitsabläufe im Unternehmen immens.'
+        lovelyP7: 'In diesem Projekt stecken mehr als 2 Jahre Arbeit, die sowohl herausforderend als auch genugtuend waren. Die Erfahrung, nah mit einem Kunden zu arbeiten und auf Feedback und Wünsche reagieren zu können, war eine großartige Möglichkeit, mich sowohl als Programmierer und auch als Mensch weiterzuentwickeln. Die App ermöglicht ein wöchentliches Zeitersparnis von etwa 15 Stunden und bereichert und optimiert somit Arbeitsabläufe innerhalb des Unternehmens immens.'
     }
 }
 

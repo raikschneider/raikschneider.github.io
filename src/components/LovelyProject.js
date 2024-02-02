@@ -62,7 +62,7 @@ export default function LovelyProject({ language }) {
         <p>{`${lovelyProjectStrings[language.key].lovelyP6}`}</p>
         <div className="project-images"></div>
       </div>
-      <div className="project-paragraph-container">
+      <div className="project-summary-container">
         <h3>{`${lovelyProjectStrings[language.key].lovelyH7}`}</h3>
         <p>{`${lovelyProjectStrings[language.key].lovelyP7}`}</p>
         <div className="project-images"></div>
