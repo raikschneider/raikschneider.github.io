@@ -4,7 +4,7 @@
     align-items: center;
     min-width: 100%;
     font-family: 'InterMedium';
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     min-height: 10%;
     padding-block: 1rem;
     user-select: none;
@@ -20,23 +20,35 @@
 .locale-toggle-container {
     cursor: pointer;
     transition: all .2s ease;
-    min-width: 7rem;
+    min-width: 6rem;
+    height: 5rem;
     text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .page-link-element:hover,
 .locale-toggle-container:hover {
     transition: all .2s ease;
-    transform: scale(1.1);
+    transform: scale(.96);
 }
 
-.locale-toggle-container {
+.locale-toggle-container, .page-link-element {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: .5rem;
+    height:3rem;
+    border-radius: 1.5rem;
+    padding-inline: .8rem;
+    background-color: #fff;
 }
 
 .locale-toggle-container img {
-    width: 25%;
+    width: 23%;
+    padding:.2rem;
+}
+
+.locale-toggle-container p {
+    padding-inline:.5rem;
+    font-size: 1.1rem;
+    font-family: 'InterMedium';
 }
