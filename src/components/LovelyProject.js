@@ -25,11 +25,10 @@ export default function LovelyProject({ language }) {
             <h3>{`${lovelyProjectStrings[language.key].lovelyH1}`}</h3>
             <p>{`${lovelyProjectStrings[language.key].lovelyP1}`}</p>
           </div>
-          <div className="project-details-tech-container">Electron | React | Node.js</div>
+          <div className="project-details-tech-container">
+            <h1>TECHNOLOGIES USED</h1>Electron | React | Node.js</div>
         </div>
-
       </div>
-
       <div className="project-paragraph-container">
         <div className="project-images">
           <img src={MainWindowScreen} alt='app main form interface screenshot'></img>
