@@ -16,10 +16,18 @@ export default function LovelyProject({ language }) {
       {/* <h2>Lovely Manager</h2> */}
       <div className="project-cover-container">
         <img src={LovelyCover} alt='rack displaying finished frames' />
-        <div className="project-brief-container">
-          <h3>{`${lovelyProjectStrings[language.key].lovelyH1}`}</h3>
-          <p>{`${lovelyProjectStrings[language.key].lovelyP1}`}</p>
+        <div className="project-details-container">
+          <div className="project-details-header-container">
+            <h1>LOVELY MANAGER</h1>
+            <p>2021 - 2024</p>
+          </div>
+          <div className="project-brief-container">
+            <h3>{`${lovelyProjectStrings[language.key].lovelyH1}`}</h3>
+            <p>{`${lovelyProjectStrings[language.key].lovelyP1}`}</p>
+          </div>
+          <div className="project-details-tech-container">Electron | React | Node.js</div>
         </div>
+
       </div>
 
       <div className="project-paragraph-container">
