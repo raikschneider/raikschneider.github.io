@@ -7,6 +7,8 @@ import LovelyCover from './../images/lovely-cover.jpg';
 import Dropdown from './../images/Dropdown_Video.mp4';
 import Teile from './../images/Teile_Video.mp4';
 
+// PICTURES WIDER THAN PARAGRAPHS PLEASE
+
 export default function LovelyProject({ language }) {
   useEffect(() => {
     window.scrollTo(0, 0)

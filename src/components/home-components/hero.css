@@ -4,13 +4,13 @@
     justify-content: center;
     align-items: center;
     padding-top: 14rem;
-    padding-bottom:5rem;
+    padding-bottom:9rem;
     padding-inline: 20%;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .hero-container h1 {
-    font-size: 6rem;
+    font-size: 8rem;
     margin: 0;
     background: linear-gradient(90deg, rgba(94,94,99,1) 0%, rgba(76,76,147,1) 58%, rgba(25,144,168,1) 100%);
     -webkit-background-clip: text;
@@ -22,6 +22,7 @@
     justify-content: center;
     align-items: center;
     gap: .5rem;
+    transform: translateY(-1rem);
 }
 
 .hero-container img {
@@ -31,4 +32,6 @@
 
 .hero-container p {
     text-align: center;
+    margin-block: 0;
+    width: 85%;
 }

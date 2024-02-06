@@ -1,6 +1,6 @@
 const heroStrings = {
     en: {
-        heroH1: `Hi, I'm Raik.`,
+        heroH1: `Hi, I am Raik.`,
         heroLocation: 'Berlin, Germany',
         heroParagraph: `Self-taught programmer, former pro skateboarder, rock climbing enthusiast and new father pursuing a career in software and web development. `
     },
