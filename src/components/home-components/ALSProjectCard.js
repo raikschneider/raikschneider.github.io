@@ -7,6 +7,8 @@ export default function ALSProjectCard({ language, switchPage, toggleDropshadow 
 
   const alsURL = 'https://awhoulongboardschool.com'
 
+  // page switch is ignored if visitor clicks on live website button link
+
   const checkClick = (e) => {
     if (e.target.tagName === 'BUTTON') return
     switchPage('ALSProject')

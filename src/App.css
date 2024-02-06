@@ -35,7 +35,8 @@
 body {
   background-color: #fff;
   color: #5e5e63;
-  overflow-y: scroll
+  overflow-y: scroll;
+  margin: 0;
 }
 
 body::-webkit-scrollbar {
