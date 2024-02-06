@@ -10,7 +10,7 @@
 }
 
 .project-card-image-container button {
-    width:12rem;
+    width: 12rem;
     font-family: 'InterRegular', 'sans-serif';
     font-size: 1.2rem;
     border-radius: .5rem;
@@ -21,15 +21,18 @@
     padding-block: 1rem;
     color: #5e5e63;
     transition: all .2s ease;
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    margin-left:-6rem;
+}
+
+.project-card-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-6rem);
+    gap: 2rem;
 }
 
 .project-card-image-container {
     transition: all .2s ease;
-    position: relative;
 }
 
 .project-card-image-container:hover,

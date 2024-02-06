@@ -3,7 +3,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-block:5rem;
+    padding-top: 14rem;
+    padding-bottom:5rem;
+    padding-inline: 20%;
+    gap: 1.5rem;
 }
 
 .hero-container h1 {
