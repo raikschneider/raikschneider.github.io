@@ -35,13 +35,13 @@
 body {
   background-color: #fff;
   color: #5e5e63;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   margin: 0;
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   display: none;
-}
+} */
 
 .page-wrapper {
   display: flex;
