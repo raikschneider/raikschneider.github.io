@@ -51,16 +51,26 @@
     color: #5e5e63;
 }
 
-.project-paragraph-container {
+.project-premise-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-premise-container p {
+    border: 1px solid #1990a8;
+    padding: 3rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.project-paragraph-container, .project-premise-container {
     padding-inline: 25%;
 }
 
 .project-brief-container,
 .project-summary-container {
-    /* border-radius: .5rem;
-    padding-block: 1rem;
-    padding-inline: 2rem; */
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     padding-top: 1rem;
 }
 

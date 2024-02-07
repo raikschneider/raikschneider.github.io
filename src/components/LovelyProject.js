@@ -6,6 +6,7 @@ import ModificationInterface from './../images/Modification_Interface2.mp4';
 import LovelyCover from './../images/lovely-cover.jpg';
 import Dropdown from './../images/Dropdown_Video2.mp4';
 import Teile from './../images/Teile_Video.mp4';
+import laufzettel2 from './../images/laufzettel2.jpg';
 
 // PICTURES WIDER THAN PARAGRAPHS PLEASE
 
@@ -30,6 +31,9 @@ export default function LovelyProject({ language }) {
           <div className="project-details-tech-container">
             <h1>TECHNOLOGIES USED</h1>Electron | React | Node.js</div>
         </div>
+      </div>
+      <div className="project-premise-container">
+        <p>{`${lovelyProjectStrings[language.key].lovelyPremise}`}</p>
       </div>
       <div className="project-paragraph-container">
         <div className="project-images">

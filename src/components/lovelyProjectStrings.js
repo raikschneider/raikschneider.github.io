@@ -13,7 +13,8 @@ const lovelyProjectStrings = {
         lovelyH6: 'What happens when all selections have been made?',
         lovelyP6: `When all selections have been made, documents are created and the order including all its files are being stored locally and can be re-opened at a later time. Orders are categorized by customer and date and are thus easy to find.`,
         lovelyH7: 'Summary',
-        lovelyP7: `I was working on this project on and off for over two years. It was a great tool for growing my skills and learning about app design. Working closely with the client and adapting to their feedback and needs was both challenging and rewarding. The app is estimated to save about 15 weekly working hours and thus has a major impact on streamlining working processes and the business as a whole.`
+        lovelyP7: `I was working on this project on and off for over two years. It was a great tool for growing my skills and learning about app design. Working closely with the client and adapting to their feedback and needs was both challenging and rewarding. The app is estimated to save about 15 weekly working hours and thus has a major impact on streamlining working processes and the business as a whole.`,
+        lovelyPremise: `Lovely Projects is a frame manufacturing collective working with artworks that require professional archival framing. Due to the large variety of materials and the pen-and-paper nature of estimating costs in the past, there was a need for digitalization and estimation accuracy, which Lovely Manager is set out to meet.`
     },
     de: {
         lovelyH1: 'Projektbeschreibung',
@@ -29,7 +30,8 @@ const lovelyProjectStrings = {
         lovelyH6: 'Was passiert, wenn alle Auswahlen getroffen wurden?',
         lovelyP6: 'Wenn alle Auswahlen getroffen wurden, werden die Dokumente erstellt und der Auftrag inklusive allen Dateien lokal abgespeichert. Da jeder Auftrag nach Kunde und Datum kategorisiert wird, ist er später leicht zu finden und kann erneut aufgerufen werden, um eventuelle Änderungen vorzunehmen.',
         lovelyH7: 'Zusammenfassung',
-        lovelyP7: 'In diesem Projekt stecken mehr als 2 Jahre Arbeit, die sowohl herausforderend als auch genugtuend waren. Die Erfahrung, nah mit einem Kunden zu arbeiten und auf Feedback und Wünsche reagieren zu können, war eine großartige Möglichkeit, mich sowohl als Programmierer und auch als Mensch weiterzuentwickeln. Die App ermöglicht ein wöchentliches Zeitersparnis von etwa 15 Stunden und bereichert und optimiert somit Arbeitsabläufe innerhalb des Unternehmens immens.'
+        lovelyP7: 'In diesem Projekt stecken mehr als 2 Jahre Arbeit, die sowohl herausforderend als auch genugtuend waren. Die Erfahrung, nah mit einem Kunden zu arbeiten und auf Feedback und Wünsche reagieren zu können, war eine großartige Möglichkeit, mich sowohl als Programmierer und auch als Mensch weiterzuentwickeln. Die App ermöglicht ein wöchentliches Zeitersparnis von etwa 15 Stunden und bereichert und optimiert somit Arbeitsabläufe innerhalb des Unternehmens immens.',
+        lovelyPremise: `Lovely Projects ist eine Rahmenmanufaktur, die professionelle Berahmung für Kunstwerke aller Art anbietet. Aufgrund der enormen Vielfalt an Materialien und der bisherigen Kostenschätzung mit Stift und Papier, entwickelte sich eine Notwendigkeit für Digitalisierung und genaue Kostenermittlung - genau das bietet der Lovely Manager.`
     }
 }
 
