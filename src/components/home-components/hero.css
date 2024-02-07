@@ -4,13 +4,12 @@
     justify-content: center;
     align-items: center;
     padding-top: 14rem;
-    padding-bottom:9rem;
+    padding-bottom:10rem;
     padding-inline: 20%;
-    gap: 1rem;
 }
 
 .hero-container h1 {
-    font-size: 8rem;
+    font-size: 7rem;
     margin: 0;
     background: linear-gradient(90deg, rgba(94,94,99,1) 0%, rgba(76,76,147,1) 58%, rgba(25,144,168,1) 100%);
     -webkit-background-clip: text;
@@ -22,7 +21,7 @@
     justify-content: center;
     align-items: center;
     gap: .5rem;
-    transform: translateY(-1rem);
+    padding-bottom: 2rem;
 }
 
 .hero-container img {

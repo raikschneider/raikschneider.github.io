@@ -1,7 +1,7 @@
 const lovelyProjectStrings = {
     en: {
         lovelyH1: `Project Brief`,
-        lovelyP1: 'Lovely Manager is a cross-platform desktop application for Berlin frame manufacturing collective Lovely Projects. The app automates cost and frame/crate measurement calculations and outputs documents for clients and working instructions for workers.',
+        lovelyP1: 'Lovely Manager is a cross-platform desktop application for Berlin frame manufacturing collective Lovely Projects. The app automates cost as well as frame and crate measurement calculations and outputs documents for clients and working instructions for workers.',
         lovelyH2: 'Where is the data coming from?',
         lovelyP2: 'Hundreds of different materials and their respective values necessary for cost and measurement calculations are being stored locally in categorized JSON files. Lovely Manager reads the files and displays materials in dropdown menus in the frontend.',
         lovelyH3: 'What if the data changes?',
@@ -17,7 +17,7 @@ const lovelyProjectStrings = {
     },
     de: {
         lovelyH1: 'Projektbeschreibung',
-        lovelyP1: 'Lovely Manager ist eine plattformübergreifende Desktop-Anwendung für die Berliner Rahmenmanufaktur Lovely Projects. Die App automatisiert die Kosten-, sowie die Rahmen-/Kistenmaßberechnungen und gibt Kundendokumente und Laufzettel für die Arbeiter aus.',
+        lovelyP1: 'Lovely Manager ist eine plattformübergreifende Desktop-Anwendung für die Berliner Rahmenmanufaktur Lovely Projects. Die App automatisiert die Kosten-, sowie die Rahmen- und Kistenmaßberechnungen und gibt Kundendokumente und Laufzettel für die Arbeiter aus.',
         lovelyH2: 'Woher kommen die Daten?',
         lovelyP2: `Hunderte Materialien und die für Berechnungen notwendigen Werte werden lokal in JSON-Dateien kategorisiert und gespeichert. Die Dateien werden vom Lovely Manager ausgelesen und Materialien werden im Frontend via Ausklappmenüs angezeigt.`,
         lovelyH3: 'Was ist, wenn die Daten sich ändern?',
