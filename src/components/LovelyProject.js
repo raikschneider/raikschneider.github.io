@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import './lovely-project.css';
 import lovelyProjectStrings from './lovelyProjectStrings.js';
-import MainWindowScreen from './../images/Main_Window_Screenshot1.png';
-import ModificationInterface1 from './../images/Modification_Interface1.png';
+import MainWindowScreen from './../images/Main_Window_Screenshot2.png';
+import ModificationInterface from './../images/Modification_Interface2.mp4';
 import LovelyCover from './../images/lovely-cover.jpg';
-import Dropdown from './../images/Dropdown_Video.mp4';
+import Dropdown from './../images/Dropdown_Video2.mp4';
 import Teile from './../images/Teile_Video.mp4';
 
 // PICTURES WIDER THAN PARAGRAPHS PLEASE
@@ -48,8 +48,10 @@ export default function LovelyProject({ language }) {
       <div className="project-paragraph-container">
         <h3>{`${lovelyProjectStrings[language.key].lovelyH3}`}</h3>
         <p>{`${lovelyProjectStrings[language.key].lovelyP3}`}</p>
-        <div className="project-images">
-          <img src={ModificationInterface1} alt='app settings interface screenshot'></img>
+        <div className="video-container">
+          <video autoPlay loop muted >
+            <source src={ModificationInterface} type="video/mp4" />
+          </video>
         </div>
       </div>
       <div className="project-paragraph-container">
