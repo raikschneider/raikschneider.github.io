@@ -1,22 +1,20 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './lovely-project.css';
 import lovelyProjectStrings from './lovelyProjectStrings.js';
 import MainWindowScreen from './../images/Main_Window_Screenshot2.png';
 import ModificationInterface from './../images/Modification_Interface2.mp4';
 import LovelyCover from './../images/lovely-cover.jpg';
+import LovelyCover2 from './../images/lovely-cover2.jpg';
+import LovelyCover3 from './../images/lovely-cover3.jpg';
 import Dropdown from './../images/Dropdown_Video2.mp4';
 import Teile from './../images/Teile_Video.mp4';
-import LovelyCover2 from './../images/lovely-cover2.jpg';
+
 
 // PICTURES WIDER THAN PARAGRAPHS PLEASE
 
 export default function LovelyProject({ language }) {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
   return (
     <div className="project-container">
-      {/* <h2>Lovely Manager</h2> */}
       <div className="project-cover-container">
         <img src={LovelyCover} alt='rack displaying finished frames' />
         <div className="project-details-container">
@@ -32,8 +30,11 @@ export default function LovelyProject({ language }) {
             <h1>TECHNOLOGIES USED</h1>Electron | React | Node.js</div>
         </div>
       </div>
-      <div className="project-premise-container">
-        <p>{`${lovelyProjectStrings[language.key].lovelyPremise}`}</p>
+      <div className="project-premise-wrapper">
+        <div className="project-premise-container">
+          <h3>{`${lovelyProjectStrings[language.key].lovelyPremiseH3}`}</h3>
+          <p>{`${lovelyProjectStrings[language.key].lovelyPremise}`}</p>
+        </div>
         <img src={LovelyCover2} />
       </div>
       <div className="project-paragraph-container">
@@ -78,10 +79,12 @@ export default function LovelyProject({ language }) {
         <p>{`${lovelyProjectStrings[language.key].lovelyP6}`}</p>
         <div className="project-images"></div>
       </div>
-      <div className="project-summary-container">
-        <h3>{`${lovelyProjectStrings[language.key].lovelyH7}`}</h3>
-        <p>{`${lovelyProjectStrings[language.key].lovelyP7}`}</p>
-        <div className="project-images"></div>
+      <div className="project-summary-wrapper">
+        <img src={LovelyCover3} />
+        <div className="project-summary-container">
+          <h3>{`${lovelyProjectStrings[language.key].lovelyH7}`}</h3>
+          <p>{`${lovelyProjectStrings[language.key].lovelyP7}`}</p>
+        </div>
       </div>
     </div>
   )
