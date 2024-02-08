@@ -1,7 +1,6 @@
 import React from 'react';
 import './lovely-project.css';
 import lovelyProjectStrings from './lovelyProjectStrings.js';
-import MainWindowScreen from './../images/Main_Window_Screenshot2.png';
 import ModificationInterface from './../images/Modification_Interface2.mp4';
 import LovelyCover from './../images/lovely-cover.jpg';
 import LovelyCover2 from './../images/lovely-cover2.jpg';
@@ -37,11 +36,6 @@ export default function LovelyProject({ language }) {
         </div>
         <img src={LovelyCover2} />
       </div>
-      {/* <div className="project-paragraph-container">
-        <div className="project-images">
-          <img src={MainWindowScreen} alt='app main form interface screenshot'></img>
-        </div>
-      </div> */}
       <div className="project-paragraph-container">
         <h3>{`${lovelyProjectStrings[language.key].lovelyH2}`}</h3>
         <p>{`${lovelyProjectStrings[language.key].lovelyP2}`}</p>
