@@ -77,8 +77,10 @@
     }
 
     #manaliso {
-        height: 17rem;
         padding-inline: 1rem;
+        width: 90%;
+        height: auto;
+        box-shadow: none;
     }
 
     #june,
