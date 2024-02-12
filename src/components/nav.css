@@ -32,11 +32,12 @@
     transform: scale(.96);
 }
 
-.locale-toggle-container, .page-link-element {
+.locale-toggle-container,
+.page-link-element {
     display: flex;
     align-items: center;
     justify-content: center;
-    height:3rem;
+    height: 3rem;
     border-radius: 1.5rem;
     padding-inline: .8rem;
     background-color: #fff;
@@ -44,11 +45,18 @@
 
 .locale-toggle-container img {
     width: 23%;
-    padding:.2rem;
+    padding: .2rem;
 }
 
 .locale-toggle-container p {
-    padding-inline:.5rem;
+    padding-inline: .5rem;
     font-size: 1.1rem;
     font-family: 'InterMedium';
+}
+
+
+@media only screen and (max-width: 600px) {
+    .nav-container {
+        display: none;
+    }
 }

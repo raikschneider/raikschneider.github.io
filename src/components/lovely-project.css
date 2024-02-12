@@ -155,3 +155,27 @@
     -webkit-transform: translateZ(0);
     clip-path: inset(.1rem .1rem);
 }
+
+@media only screen and (max-width: 600px) {
+
+    .project-container {
+        padding-top: 0;
+    }
+    .project-cover-container, .project-summary-wrapper, .project-premise-wrapper {
+        flex-direction: column;
+        text-align: center;
+        padding-inline: 1rem;
+    }
+
+    .project-details-container, .project-premise-container  {
+        align-items: center;
+    }
+
+    .project-cover-container img, .project-summary-wrapper img, .project-premise-wrapper img {
+        width: 80%;
+    }
+
+    .project-paragraph-container {
+        padding-inline: 1rem;
+    }
+}

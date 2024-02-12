@@ -14,6 +14,7 @@
     background: linear-gradient(90deg, rgba(94,94,99,1) 0%, rgba(76,76,147,1) 58%, rgba(25,144,168,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 .hero-container span {
@@ -34,3 +35,14 @@
     margin-block: 0;
     width: 85%;
 }
+
+@media only screen and (max-width: 600px) {
+    .hero-container {
+       padding-top: 0;
+       padding-inline: 1rem;
+    }
+
+    .hero-container h1 {
+        font-size: 6rem;
+    }
+  }

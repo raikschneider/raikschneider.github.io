@@ -7,3 +7,9 @@
     margin-top: 1rem;
     padding-inline: 20%;
 }
+
+@media only screen and (max-width: 600px) {
+    .project-cards-container {
+        padding-inline: 10%;
+    }
+}

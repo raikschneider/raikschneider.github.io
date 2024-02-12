@@ -27,9 +27,10 @@
 }
 
 .about-paragraphs-container h1 {
-    background: linear-gradient(90deg, rgba(94,94,99,1) 0%, rgba(76,76,147,1) 58%, rgba(25,144,168,1) 100%);
+    background: linear-gradient(90deg, rgba(94, 94, 99, 1) 0%, rgba(76, 76, 147, 1) 58%, rgba(25, 144, 168, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 .about-container p {
@@ -58,4 +59,28 @@
     height: 20rem;
     margin: 0 -1.5rem;
     filter: brightness(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+
+    .about-container {
+        padding-top: 0;
+    }
+
+    .about-images-container {
+        flex-direction: column;
+    }
+
+    .about-paragraphs-container {
+        padding-inline: 2rem;
+    }
+
+    #manaliso {
+        height: 20rem;
+    }
+
+    #june,
+    #climbing {
+        display: none;
+    }
 }

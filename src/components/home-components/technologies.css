@@ -8,6 +8,8 @@
 
 .technologies-images-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 3rem;
 }
 
@@ -27,3 +29,15 @@
 .technologies-element-container p {
     color: #1990a8;
 }
+
+@media only screen and (max-width: 600px) {
+    .technologies-container {
+        width: 80%;
+        text-align: center;
+    }
+
+    .technologies-images-container {
+        width: 80%;
+        flex-wrap: wrap;
+    }
+  }

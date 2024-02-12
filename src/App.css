@@ -31,17 +31,15 @@
 /* primary color: #fff */
 /* accent color: #1990a8 */
 /* font color: #5e5e63 */
-
+html, body {
+  overflow-x: hidden
+}
 body {
   background-color: #fff;
   color: #5e5e63;
-  /* overflow-y: scroll; */
-  margin: 0;
+  margin : 0px !important;
+  
 }
-
-/* body::-webkit-scrollbar {
-  display: none;
-} */
 
 .page-wrapper {
   display: flex;

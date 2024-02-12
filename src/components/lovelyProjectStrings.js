@@ -29,7 +29,7 @@ const lovelyProjectStrings = {
         lovelyH5: 'Ein Rahmen für jedes Kunstwerk',
         lovelyP5: 'Sollte ein Auftrag aus mehreren Teilen bestehen, weil Rahmen und/oder Kisten in unterschiedlichen Größen angefordert werden, kann der Nutzer den Auftrag in mehrere Teile separieren. Alle Kalkulationen und Auswahlen werden von der App korrekt und getrennt voneinander - Teil für Teil - ausgewertet.',
         lovelyH6: 'Was passiert, wenn alle Auswahlen getroffen wurden?',
-        lovelyP6: 'Die Dokumente werden erstellt (Laufzettel, Kostenvoranschläge etc.) und der Auftrag inklusive allen Dateien wird lokal abgespeichert. Da jeder Auftrag nach Kunde und Datum kategorisiert wird, ist er später leicht zu finden und kann erneut aufgerufen werden, um eventuelle Änderungen vorzunehmen.',
+        lovelyP6: 'Die Dokumente (Laufzettel, Kostenvoranschläge etc.) werden erstellt und der Auftrag inklusive allen Dateien wird lokal abgespeichert. Da jeder Auftrag nach Kunde und Datum kategorisiert wird, ist er später leicht zu finden und kann erneut aufgerufen werden, um eventuelle Änderungen vorzunehmen.',
         lovelyH7: 'Zusammenfassung',
         lovelyP7: 'In diesem Projekt stecken mehr als 2 Jahre Arbeit, die sowohl herausforderend als auch genugtuend waren. Die Erfahrung, nah mit einem Kunden zu arbeiten und auf Feedback und Wünsche reagieren zu können, war eine großartige Möglichkeit, mich als Programmierer und Mensch weiterzuentwickeln. Die Applikation ermöglicht ein wöchentliches Zeitersparnis von etwa 15 Arbeitstunden und bereichert und optimiert somit Arbeitsabläufe innerhalb des Unternehmens immens.',
         lovelyPremiseH3: `Prämisse`,
