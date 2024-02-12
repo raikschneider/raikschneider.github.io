@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.76b89007.css",
+    "main.js": "/static/js/main.b61e8301.js",
+    "static/media/ALS_movie.mp4": "/static/media/ALS_movie.194b6bf8c220897ba46b.mp4",
+    "static/media/climbing2.jpg": "/static/media/climbing2.c7ad280122c8b81e0910.jpg",
+    "static/media/lovely-cover3.jpg": "/static/media/lovely-cover3.a258685208acf447ac0b.jpg",
+    "static/media/lovely-cover.jpg": "/static/media/lovely-cover.0b3ecedbb693d72edfde.jpg",
+    "static/media/lovely-cover2.jpg": "/static/media/lovely-cover2.400cdffcb22ac84fd075.jpg",
+    "static/media/ALS_Profile.png": "/static/media/ALS_Profile.d9ee11755f233fd2b030.png",
+    "static/media/june1.jpg": "/static/media/june1.2d64e20e3663c7b53986.jpg",
+    "static/media/Locale_Video.mp4": "/static/media/Locale_Video.7ad71b32bd84b46052b0.mp4",
+    "static/media/Teile_Video.mp4": "/static/media/Teile_Video.447a39ddf8a9f267aff0.mp4",
+    "static/media/ALS_Premise.jpg": "/static/media/ALS_Premise.7036019df91eefedac74.jpg",
+    "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.0eaf807b1cf0eceabe0f.ttf",
+    "static/media/Inter-Medium.ttf": "/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
+    "static/media/Inter-Thin.ttf": "/static/media/Inter-Thin.97a5cc3ca8d3b35a4239.ttf",
+    "static/media/Inter-Light.ttf": "/static/media/Inter-Light.02850f28027788580733.ttf",
+    "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
+    "static/media/Dropdown_Video2.mp4": "/static/media/Dropdown_Video2.fcd59662a703e7c6f13b.mp4",
+    "static/media/carbonLM_DE.png": "/static/media/carbonLM_DE.9244cd7b43d00a931bab.png",
+    "static/media/carbonLM_EN.png": "/static/media/carbonLM_EN.dac7dcaa2c4410161168.png",
+    "static/media/carbonALS_EN.png": "/static/media/carbonALS_EN.a4bf3993d101c0d41364.png",
+    "static/media/Modification_Interface2.mp4": "/static/media/Modification_Interface2.ecf3537267fe914833f8.mp4",
+    "static/media/carbonALS_DE.png": "/static/media/carbonALS_DE.6401cfbb8055ebae7bd3.png",
+    "static/media/manaliso1.jpg": "/static/media/manaliso1.5355e9c5cb068c4985df.jpg",
+    "static/media/ALS_Logo.png": "/static/media/ALS_Logo.0aadf6a3c795a938657f.png",
+    "static/media/git.svg": "/static/media/git.8737a0870973dfb7779bc9b0bccfe0f1.svg",
+    "static/media/javascript.svg": "/static/media/javascript.9eb89eccba43a39bdb6a8062b5a7682e.svg",
+    "static/media/express-js.svg": "/static/media/express-js.b391c90e4ab7107b8fe4c3e5a2f45ede.svg",
+    "index.html": "/index.html",
+    "main.76b89007.css.map": "/static/css/main.76b89007.css.map",
+    "main.b61e8301.js.map": "/static/js/main.b61e8301.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76b89007.css",
+    "static/js/main.b61e8301.js"
+  ]
+}
