@@ -57,13 +57,13 @@
 
 @media only screen and (max-width: 600px) {
     .project-card-image-container button {
-        width: 6rem;
-        font-size: .5rem;
+        width: 8.5rem;
+        font-size: .8rem;
         padding-block: .5rem;
     }
 
     .project-card-button-container {
-        transform: translateY(-3rem);
+        transform: translateY(-3.2rem);
         gap: 1rem;
     }
 }

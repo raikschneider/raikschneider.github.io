@@ -84,19 +84,24 @@
         gap: 5rem;
         justify-content: flex-start;
         background-color: rgba(25, 144, 168, .4);
-        height: 100%;
+        min-height: 100vh;
+        padding-block: 0;
         padding-top: 5rem;
+        
     }
 
     .nav-element-container.active {
-        left:0;
+        left: 0;
     }
 
     .hamburger-menu {
         display: block;
         position: fixed;
-        right: 10%;
-        top: 10%;
+        right: 6%;
+        top: 6%;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
     }
 
     .hamburger-menu.active .bar {
@@ -115,5 +120,5 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    
+
 }

@@ -64,7 +64,8 @@
 @media only screen and (max-width: 600px) {
 
     .about-container {
-        padding-top: 0;
+        padding-top: 2rem;
+        text-align: center;
     }
 
     .about-images-container {
@@ -76,7 +77,8 @@
     }
 
     #manaliso {
-        height: 20rem;
+        height: 17rem;
+        padding-inline: 1rem;
     }
 
     #june,
