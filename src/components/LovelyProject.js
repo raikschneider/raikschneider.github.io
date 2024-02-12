@@ -8,14 +8,24 @@ import LovelyCover3 from './../images/lovely-cover3.jpg';
 import Dropdown from './../images/Dropdown_Video2.mp4';
 import Teile from './../images/Teile_Video.mp4';
 
-
-// PICTURES WIDER THAN PARAGRAPHS PLEASE
+const altTexts = {
+  en: {
+    coverIMG: `rack displaying finished frames`,
+    premiseIMG: `artwork and unfinished frame`,
+    summaryIMG: `artwork in finished frame`
+  },
+  de : {
+    coverIMG: `Rahmenhalterung mit fertigen Rahmen`,
+    premiseIMG: `Kunstwerk und unfertiger Rahmen`,
+    summaryIMG: `Kunstwerk in fertigem Rahmen`
+  }
+}
 
 export default function LovelyProject({ language }) {
   return (
     <div className="project-container">
       <div className="project-cover-container">
-        <img src={LovelyCover} alt='rack displaying finished frames' />
+        <img src={LovelyCover} alt={altTexts[language.key].coverIMG} />
         <div className="project-details-container">
           <div className="project-details-header-container">
             <h1>LOVELY MANAGER</h1>
@@ -34,7 +44,7 @@ export default function LovelyProject({ language }) {
           <h3>{`${lovelyProjectStrings[language.key].lovelyPremiseH3}`}</h3>
           <p>{`${lovelyProjectStrings[language.key].lovelyPremise}`}</p>
         </div>
-        <img src={LovelyCover2} />
+        <img src={LovelyCover2} alt={altTexts[language.key].premiseIMG} />
       </div>
       <div className="project-paragraph-container">
         <h3>{`${lovelyProjectStrings[language.key].lovelyH2}`}</h3>
@@ -57,7 +67,6 @@ export default function LovelyProject({ language }) {
       <div className="project-paragraph-container">
         <h3>{`${lovelyProjectStrings[language.key].lovelyH4}`}</h3>
         <p>{`${lovelyProjectStrings[language.key].lovelyP4}`}</p>
-        <div className="project-images"></div>
       </div>
       <div className="project-paragraph-container">
         <h3>{`${lovelyProjectStrings[language.key].lovelyH5}`}</h3>
@@ -74,7 +83,7 @@ export default function LovelyProject({ language }) {
         <div className="project-images"></div>
       </div>
       <div className="project-summary-wrapper">
-        <img src={LovelyCover3} />
+        <img src={LovelyCover3} alt={altTexts[language.key].summaryIMG} />
         <div className="project-summary-container">
           <h3>{`${lovelyProjectStrings[language.key].lovelyH7}`}</h3>
           <p>{`${lovelyProjectStrings[language.key].lovelyP7}`}</p>
