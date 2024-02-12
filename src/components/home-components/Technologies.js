@@ -1,10 +1,10 @@
 import React from 'react';
 import './technologies.css';
-import jsIcon from './../../icons/icons8-javascript.svg';
-import expressIcon from './../../icons/icons8-express-js.svg';
-import gitIcon from './../../icons/icons8-git.svg';
-import reactIcon from './../../icons/icons8-react-native-68.png';
-import nodeIcon from './../../icons/icons8-nodejs-48.png';
+import jsIcon from './../../icons/javascript.svg';
+import expressIcon from './../../icons/express-js.svg';
+import gitIcon from './../../icons/git.svg';
+import reactIcon from './../../icons/react-native-68.png';
+import nodeIcon from './../../icons/nodejs-48.png';
 
 
 const technologyStrings = {

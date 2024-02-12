@@ -1,0 +1,27 @@
+.progress-element {
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    display: none;
+    place-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.progress-value {
+    height: calc(100% - 1rem);
+    width: calc(100% - 1rem);
+    background-color: #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.progress-value img {
+    
+    height: 2.4rem;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import globe from './../icons/icons8-globe-50.png';
+import globe from './../icons/globe-50.png';
 import './nav.css';
 
 const navStrings = {

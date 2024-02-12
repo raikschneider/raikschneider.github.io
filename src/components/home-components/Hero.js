@@ -1,7 +1,7 @@
 import React from 'react';
 import './hero.css';
 import heroStrings from './heroStrings.js';
-import gpsIcon from './../../icons/icons8-gps-50.png';
+import gpsIcon from './../../icons/gps-50.png';
 
 export default function Hero({ language, setCurrentPage }) {
     return (

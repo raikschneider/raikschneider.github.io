@@ -4,6 +4,7 @@ import Home from './components/Home.js';
 import About from './components/About.js';
 import LovelyProject from './components/LovelyProject.js';
 import ALSProject from './components/ALSProject.js';
+import Progress from './components/Progress.js';
 import Footer from './components/Footer.js';
 import './App.css';
 
@@ -28,6 +29,7 @@ function App() {
         {currentPage === 'About' ? <About language={language} switchPage={switchPage} /> : null}
         {currentPage === 'LovelyProject' ? <LovelyProject language={language} /> : null}
         {currentPage === 'ALSProject' ? <ALSProject language={language} /> : null}
+        <Progress />
         <Footer language={language} />
       </div>
     </>
