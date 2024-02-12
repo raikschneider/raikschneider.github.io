@@ -157,6 +157,10 @@
     clip-path: inset(.1rem .1rem);
 }
 
+#awhouLOGO {
+    box-shadow: none;
+}
+
 @media only screen and (max-width: 600px) {
 
     .project-container {
@@ -192,4 +196,9 @@
     .project-details-container p {
         padding-inline: 1rem;
     }
+
+    #awhouLOGO {
+        width: 85%;
+    }
 }
+

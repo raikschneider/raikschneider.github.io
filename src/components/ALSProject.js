@@ -4,6 +4,7 @@ import Locale from './../images/Locale_Video.mp4';
 import ALSCover from './../images/ALS_Profile.png';
 import ALSMovie from './../images/ALS_movie.mp4';
 import ALSPremise from './../images/ALS_Premise.jpg'
+import ALSLogo from './../images/ALS_Logo.png'
 
 export default function ALSProject({ language }) {
   return (
@@ -49,7 +50,7 @@ export default function ALSProject({ language }) {
         </div>
       </div>
       <div className="project-summary-wrapper">
-        <img src={ALSPremise} />
+        <img src={ALSLogo} id="awhouLOGO" />
         <div className="project-summary-container">
           <h3>{`${alsProjectStrings[language.key].alsSummaryH3}`}</h3>
           <p>{`${alsProjectStrings[language.key].alsSummary}`}</p>
