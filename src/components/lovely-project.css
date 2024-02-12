@@ -153,4 +153,5 @@
     border-radius: .5rem;
     overflow: hidden;
     -webkit-transform: translateZ(0);
+    clip-path: inset(.1rem .1rem);
 }
