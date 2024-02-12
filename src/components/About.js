@@ -5,13 +5,26 @@ import climbing2 from './../images/climbing2.jpg'
 import './about.css'
 import aboutStrings from './aboutStrings.js';
 
+
+const altText = {
+    de: {
+        june: 'Hand eines Säuglings',
+        manaliso: 'Ich mit Surfboard auf Fahrrad',
+        climbing: 'Klettergriffe'
+    },
+    en: {
+        june: 'hand of a baby',
+        manaliso: 'me on a bike with surfboard',
+        climbing: 'climbing holds'
+    }
+}
 export default function About({ language }) {
     return (
         <div className="about-container">
             <div className="about-images-container">
-                <img src={june1} id="june" alt="hand of a baby"></img>
-                <img src={manaliso1} id="manaliso" alt="man on a bike with surfboard"></img>
-                <img src={climbing2} id="climbing" alt="climbing holds"></img>
+                <img src={june1} id="june" alt={`${altText[language.key].june}`}></img>
+                <img src={manaliso1} id="manaliso" alt={`${altText[language.key].manaliso}`}></img>
+                <img src={climbing2} id="climbing" alt={`${altText[language.key].climbing}`}></img>
             </div>
             <div className="about-paragraphs-container">
                 <h1>{`${aboutStrings[language.key].aboutH1}`}</h1>

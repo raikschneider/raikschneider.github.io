@@ -16,7 +16,7 @@ export default function Progress() {
     window.onload = calcScrollValue;
     return (
         <div className="progress-element" onClick={() => window.scrollTo(0, 0)}>
-            <span className="progress-value"><img src={arrow} /></span>    
+            <span className="progress-value"><img src={arrow} alt='arrow up icon'/></span>    
         </div>
     )
 }
