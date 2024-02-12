@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.f40ac6fd.css",
+    "main.css": "/static/css/main.9dd00a97.css",
     "main.js": "/static/js/main.0062efb9.js",
     "static/media/ALS_movie.mp4": "/static/media/ALS_movie.194b6bf8c220897ba46b.mp4",
     "static/media/climbing2.jpg": "/static/media/climbing2.c7ad280122c8b81e0910.jpg",
@@ -29,11 +29,11 @@
     "static/media/javascript.svg": "/static/media/javascript.9eb89eccba43a39bdb6a8062b5a7682e.svg",
     "static/media/express-js.svg": "/static/media/express-js.b391c90e4ab7107b8fe4c3e5a2f45ede.svg",
     "index.html": "/index.html",
-    "main.f40ac6fd.css.map": "/static/css/main.f40ac6fd.css.map",
+    "main.9dd00a97.css.map": "/static/css/main.9dd00a97.css.map",
     "main.0062efb9.js.map": "/static/js/main.0062efb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f40ac6fd.css",
+    "static/css/main.9dd00a97.css",
     "static/js/main.0062efb9.js"
   ]
 }
